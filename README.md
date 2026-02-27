@@ -6,4 +6,4 @@ A next step could be coming up with a simple MCP extension to add payments to MC
 
 Another next step could be to see if we can back the money deposited with USDC so payments can occur on a crypto platform (e.g. coinbase) such that we can use x402 as the payment protocol for MCP servers (see https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2007). The benefit of starting with stripe connect is that the user experience is very smooth; nobody needs to deposit crypto! As most internet users aren't cyrpto users, this is a big plus.
 
-Generally excited for paid MCP servers because it creates a new incentive for building actually good MCP servers besides just "look at us we have an MCP".
+Generally excited for paid MCP servers because it creates a new incentive for building actually good MCP servers besides just "look at us we have an MCP". Also, it reduces friction of MCP use because possibly we can just create MCP servers that only reuquire payment, but no identity. This creates a paradigm where there is no oauth required, allowing dynamic discovery and use of MCP server by ai agents.
