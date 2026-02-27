@@ -1,0 +1,13 @@
+{
+  "$schema": "https://unpkg.com/wrangler@latest/config-schema.json",
+  "name": "p2p-payments",
+  "main": "worker.ts",
+  "compatibility_date": "2026-02-27",
+  "durable_objects": {
+    "bindings": [{ "name": "LEDGER", "class_name": "LedgerDO" }]
+  },
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["LedgerDO"] }],
+  "routes": [
+    { "custom_domain": true, "pattern": "p2p-stripe-connect.wilmake.com" }
+  ]
+}
